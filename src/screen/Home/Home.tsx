@@ -25,10 +25,8 @@ const Home = () => {
 
   const openNotification = (placement: NotificationPlacement) => {
     api.info({
-      message: `Notification ${placement}`,
-      description: (
-        <Context.Consumer>{({ name }) => `Hello, ${name}!`}</Context.Consumer>
-      ),
+      message: `We use cookies to improve your experience. By continuing, you agree to our Privacy Policy`,
+      description: `This message is a simple and user-friendly cookies consent notification commonly used on websites. It informs visitors that cookies are being used to enhance their experience and implies that by continuing to browse, they accept the website’s cookie policy. You can also add a Privacy Policy link for transparency.`,
       placement,
     });
   };
