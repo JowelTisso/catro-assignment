@@ -51,8 +51,8 @@ const Header = () => {
         <Button type="text" icon={<AiOutlineSearch size={"1.4em"} />} />
 
         <Button type="text">Sign in</Button>
-        <Button className="btn-outline">TALK TO SALES</Button>
-        <Button className="btn-primary" type="primary">
+        <Button className="btn-outline radius">TALK TO SALES</Button>
+        <Button className="btn-primary radius" type="primary">
           TRY FOR FREE
         </Button>
       </div>
